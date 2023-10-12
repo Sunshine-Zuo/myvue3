@@ -1,0 +1,13 @@
+:root {
+  --theme-dark: #242f42;
+  --theme-light: #ffbbff;
+  --theme: var(--theme-dark);
+}
+
+:root[theme='dark'] {
+  --theme: var(--theme-dark);
+}
+
+:root[theme='light'] {
+  --theme: var(--theme-light);
+}

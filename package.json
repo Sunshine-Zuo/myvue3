@@ -1,0 +1,44 @@
+{
+  "name": "myvue3",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "serve-dev": "vite --mode dev",
+    "serve-test": "vite --mode test",
+    "serve-prod": "vite --mode prod",
+    "build-dev": "vite build --mode dev",
+    "build-test": "vite build --mode test",
+    "build-prod": "vite build --mode prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "axios": "^0.27.2",
+    "better-scroll": "^2.5.1",
+    "copy-to-clipboard": "^3.3.3",
+    "dayjs": "^1.11.5",
+    "dom-to-image-more": "^3.1.6",
+    "echarts": "^5.3.3",
+    "element-plus": "^2.2.6",
+    "jsencrypt": "^3.2.1",
+    "lodash": "^4.17.21",
+    "vant": "^3.5.2",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "postcss-px-to-viewport": "^1.1.1",
+    "sass": "^1.52.3",
+    "unplugin-auto-import": "^0.9.2",
+    "unplugin-element-plus": "^0.4.1",
+    "unplugin-vue-components": "^0.21.1",
+    "vite": "^2.9.9"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
